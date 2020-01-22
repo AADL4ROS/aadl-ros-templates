@@ -1,0 +1,47 @@
+-- Auto-generated data for types geographic_msgs
+-- Generated on: 07/11/2017 17:24:53
+package geographic_msgs
+public
+	data BoundingBox
+	end BoundingBox;
+	
+	data GeoPath
+	end GeoPath;
+	
+	data GeoPoint
+	end GeoPoint;
+	
+	data GeoPointStamped
+	end GeoPointStamped;
+	
+	data GeoPose
+	end GeoPose;
+	
+	data GeoPoseStamped
+	end GeoPoseStamped;
+	
+	data GeographicMap
+	end GeographicMap;
+	
+	data GeographicMapChanges
+	end GeographicMapChanges;
+	
+	data KeyValue
+	end KeyValue;
+	
+	data MapFeature
+	end MapFeature;
+	
+	data RouteNetwork
+	end RouteNetwork;
+	
+	data RoutePath
+	end RoutePath;
+	
+	data RouteSegment
+	end RouteSegment;
+	
+	data WayPoint
+	end WayPoint;
+	
+end geographic_msgs;

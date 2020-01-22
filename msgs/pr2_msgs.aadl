@@ -1,0 +1,47 @@
+-- Auto-generated data for types pr2_msgs
+-- Generated on: 07/11/2017 17:24:53
+package pr2_msgs
+public
+	data AccelerometerState
+	end AccelerometerState;
+	
+	data AccessPoint
+	end AccessPoint;
+	
+	data BatteryServer
+	end BatteryServer;
+	
+	data BatteryServer2
+	end BatteryServer2;
+	
+	data BatteryState
+	end BatteryState;
+	
+	data BatteryState2
+	end BatteryState2;
+	
+	data DashboardState
+	end DashboardState;
+	
+	data GPUStatus
+	end GPUStatus;
+	
+	data LaserScannerSignal
+	end LaserScannerSignal;
+	
+	data LaserTrajCmd
+	end LaserTrajCmd;
+	
+	data PeriodicCmd
+	end PeriodicCmd;
+	
+	data PowerBoardState
+	end PowerBoardState;
+	
+	data PowerState
+	end PowerState;
+	
+	data PressureState
+	end PressureState;
+	
+end pr2_msgs;

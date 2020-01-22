@@ -1,0 +1,136 @@
+package ros
+public
+	with component_and_connector;
+	cnc renames package component_and_connector;
+	
+	data tf
+	end tf;
+		
+	subprogram state_manager
+	end state_manager;
+	
+	thread main_loop
+		features
+			error_tr: out event port;
+			run_tr: out event port;
+			init_tr: out event port;
+			close_tr: out event port;
+			ist: requires data access cnc::internal_state;
+			notify_state: requires subprogram access state_manager;
+	requires modes
+		init: mode;
+		running: mode;
+		closing: mode;
+		error: mode;
+	end main_loop;
+	
+	thread implementation main_loop.impl
+		subcomponents
+			prepare: subprogram cnc::function in modes (init);
+			spin: subprogram cnc::function in modes (running);
+			tear_down: subprogram cnc::function in modes (closing);
+			error_handler: subprogram cnc::function in modes (error);
+		connections
+			--transitions
+			run_sig_pr: port prepare.signal -> run_tr in modes (init);
+			error_sig_pr: port prepare.signal -> error_tr in modes (init);
+			error_sig_sp: port spin.signal -> error_tr in modes (running);
+			run_sig_sp: port spin.signal -> run_tr in modes (running);
+			close_sig_er: port error_handler.signal -> close_tr in modes (error);
+			run_sig_er: port error_handler.signal -> run_tr in modes (error);
+			init_sig_er: port error_handler.signal -> init_tr in modes (error);
+			
+			--data access
+			da1: data access  prepare.ist -> ist in modes (init);
+			da2: data access  spin.ist -> ist in modes (running);
+			da3: data access  tear_down.ist -> ist in modes (closing);
+			da4: data access  error_handler.ist -> ist in modes (error);
+	end main_loop.impl;
+			
+	process node
+		features
+			close: in event port;
+			notify_state: requires subprogram access state_manager;
+	end node;
+	
+	process implementation node.impl
+		subcomponents
+			main_thread: thread main_loop.impl in modes (init => init, running => running, closing => closing, error => error);
+			internal_state: data cnc::internal_state;
+	connections
+			ist: data access internal_state -> main_thread.ist;
+			sc: subprogram access main_thread.notify_state -> notify_state; 
+	modes
+			init: initial mode;
+			running: mode;
+			closing: mode;
+			error: mode;
+			running -[close]-> closing;
+			running -[main_thread.run_tr]-> running;
+			init -[close]-> closing;
+			init -[main_thread.run_tr]-> running;
+			init -[main_thread.error_tr]-> error;
+			error -[main_thread.init_tr]-> init;
+			error -[main_thread.run_tr]-> running;
+			error -[main_thread.close_tr]-> closing;
+	end node.impl;
+	
+	thread call_pub extends cnc::filter
+		prototypes
+			message_in: data;
+			message_out: data;
+		features
+			msg_in: refined to in event data port message_in;
+			msg_out: refined to out data port message_out;
+			tf: requires data access tf;
+	end call_pub;
+	
+	thread implementation call_pub.impl extends cnc::component_behaviour.impl
+	end call_pub.impl;
+	
+	thread callback extends cnc::message_sink
+		prototypes
+			message: data;
+		features
+			msg: refined to in event data port message;
+			tf: requires data access tf;
+	end callback;
+	
+	thread implementation callback.impl extends cnc::component_behaviour.impl
+	end callback.impl;
+	
+	thread timer extends cnc::component_behaviour
+		features
+			tf: requires data access tf;
+		properties
+			Dispatch_Protocol => Periodic;
+	end timer;
+	
+	thread implementation timer.impl extends cnc::component_behaviour.impl
+	end timer.impl;
+	
+	thread publisher extends cnc::message_source
+		prototypes
+			message: data;
+		features
+			msg: refined to out data port message;
+			tf: requires data access tf;
+	end publisher;
+	
+	thread implementation publisher.impl extends cnc::component_behaviour.impl
+	end publisher.impl;
+		
+	thread service_provider extends cnc::reactive
+		prototypes
+			service: subprogram;
+		features
+			srv: refined to provides subprogram access service;
+			tf: requires data access tf;
+	end service_provider;
+	
+	thread implementation service_provider.impl extends cnc::component_behaviour.impl
+	end service_provider.impl;
+		
+	virtual bus ROS
+	end ROS;
+end ros;

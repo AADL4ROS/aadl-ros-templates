@@ -1,0 +1,20 @@
+-- Auto-generated data for types world_canvas_msgs
+-- Generated on: 07/11/2017 17:24:53
+package world_canvas_msgs
+public
+	data Annotation
+	end Annotation;
+	
+	data AnnotationData
+	end AnnotationData;
+	
+	data Annotations
+	end Annotations;
+	
+	data MapListEntry
+	end MapListEntry;
+	
+	data WorldCanvas
+	end WorldCanvas;
+	
+end world_canvas_msgs;

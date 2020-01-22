@@ -1,0 +1,14 @@
+-- Auto-generated data for types diagnostic_msgs
+-- Generated on: 07/11/2017 17:24:53
+package diagnostic_msgs
+public
+	data DiagnosticArray
+	end DiagnosticArray;
+	
+	data DiagnosticStatus
+	end DiagnosticStatus;
+	
+	data KeyValue
+	end KeyValue;
+	
+end diagnostic_msgs;

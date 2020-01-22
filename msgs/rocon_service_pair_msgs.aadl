@@ -1,0 +1,20 @@
+-- Auto-generated data for types rocon_service_pair_msgs
+-- Generated on: 07/11/2017 17:24:53
+package rocon_service_pair_msgs
+public
+	data TestiesPair
+	end TestiesPair;
+	
+	data TestiesPairRequest
+	end TestiesPairRequest;
+	
+	data TestiesPairResponse
+	end TestiesPairResponse;
+	
+	data TestiesRequest
+	end TestiesRequest;
+	
+	data TestiesResponse
+	end TestiesResponse;
+	
+end rocon_service_pair_msgs;

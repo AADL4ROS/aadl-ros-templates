@@ -1,0 +1,8 @@
+-- Auto-generated data for types realsense_camera
+-- Generated on: 07/11/2017 17:24:53
+package realsense_camera
+public
+	data IMUInfo
+	end IMUInfo;
+	
+end realsense_camera;

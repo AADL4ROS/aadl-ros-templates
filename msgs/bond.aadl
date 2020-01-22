@@ -1,0 +1,11 @@
+-- Auto-generated data for types bond
+-- Generated on: 07/11/2017 17:24:53
+package bond
+public
+	data Constants
+	end Constants;
+	
+	data Status
+	end Status;
+	
+end bond;

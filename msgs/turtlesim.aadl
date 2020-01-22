@@ -1,0 +1,11 @@
+-- Auto-generated data for types turtlesim
+-- Generated on: 07/11/2017 17:24:53
+package turtlesim
+public
+	data Color
+	end Color;
+	
+	data Pose
+	end Pose;
+	
+end turtlesim;

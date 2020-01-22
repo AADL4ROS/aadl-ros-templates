@@ -1,0 +1,17 @@
+-- Auto-generated data for types controller_manager_msgs
+-- Generated on: 07/11/2017 17:24:53
+package controller_manager_msgs
+public
+	data ControllerState
+	end ControllerState;
+	
+	data ControllerStatistics
+	end ControllerStatistics;
+	
+	data ControllersStatistics
+	end ControllersStatistics;
+	
+	data HardwareInterfaceResources
+	end HardwareInterfaceResources;
+	
+end controller_manager_msgs;

@@ -1,0 +1,104 @@
+-- Auto-generated data for types mavros_msgs
+-- Generated on: 07/11/2017 17:24:53
+package mavros_msgs
+public
+	data ADSBVehicle
+	end ADSBVehicle;
+	
+	data ActuatorControl
+	end ActuatorControl;
+	
+	data Altitude
+	end Altitude;
+	
+	data AttitudeTarget
+	end AttitudeTarget;
+	
+	data BatteryStatus
+	end BatteryStatus;
+	
+	data CamIMUStamp
+	end CamIMUStamp;
+	
+	data CommandCode
+	end CommandCode;
+	
+	data DebugValue
+	end DebugValue;
+	
+	data ExtendedState
+	end ExtendedState;
+	
+	data FileEntry
+	end FileEntry;
+	
+	data GlobalPositionTarget
+	end GlobalPositionTarget;
+	
+	data HilActuatorControls
+	end HilActuatorControls;
+	
+	data HilControls
+	end HilControls;
+	
+	data HilGPS
+	end HilGPS;
+	
+	data HilSensor
+	end HilSensor;
+	
+	data HilStateQuaternion
+	end HilStateQuaternion;
+	
+	data HomePosition
+	end HomePosition;
+	
+	data ManualControl
+	end ManualControl;
+	
+	data Mavlink
+	end Mavlink;
+	
+	data OpticalFlowRad
+	end OpticalFlowRad;
+	
+	data OverrideRCIn
+	end OverrideRCIn;
+	
+	data ParamValue
+	end ParamValue;
+	
+	data PositionTarget
+	end PositionTarget;
+	
+	data RCIn
+	end RCIn;
+	
+	data RCOut
+	end RCOut;
+	
+	data RadioStatus
+	end RadioStatus;
+	
+	data State
+	end State;
+	
+	data Thrust
+	end Thrust;
+	
+	data VFR_HUD
+	end VFR_HUD;
+	
+	data Vibration
+	end Vibration;
+	
+	data Waypoint
+	end Waypoint;
+	
+	data WaypointList
+	end WaypointList;
+	
+	data WaypointReached
+	end WaypointReached;
+	
+end mavros_msgs;

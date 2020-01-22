@@ -1,0 +1,14 @@
+-- Auto-generated data for types smach_msgs
+-- Generated on: 07/11/2017 17:24:53
+package smach_msgs
+public
+	data SmachContainerInitialStatusCmd
+	end SmachContainerInitialStatusCmd;
+	
+	data SmachContainerStatus
+	end SmachContainerStatus;
+	
+	data SmachContainerStructure
+	end SmachContainerStructure;
+	
+end smach_msgs;

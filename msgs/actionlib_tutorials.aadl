@@ -1,0 +1,26 @@
+-- Auto-generated data for types actionlib_tutorials
+-- Generated on: 07/11/2017 17:24:53
+package actionlib_tutorials
+public
+	data FibonacciAction
+	end FibonacciAction;
+	
+	data FibonacciActionFeedback
+	end FibonacciActionFeedback;
+	
+	data FibonacciActionGoal
+	end FibonacciActionGoal;
+	
+	data FibonacciActionResult
+	end FibonacciActionResult;
+	
+	data FibonacciFeedback
+	end FibonacciFeedback;
+	
+	data FibonacciGoal
+	end FibonacciGoal;
+	
+	data FibonacciResult
+	end FibonacciResult;
+	
+end actionlib_tutorials;

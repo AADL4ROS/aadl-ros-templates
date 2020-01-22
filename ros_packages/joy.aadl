@@ -1,0 +1,10 @@
+package joy
+public
+	with topic_properties, sensor_msgs;
+	process joy_node
+		features
+			joy: out data port sensor_msgs::Joy;
+		properties
+			topic_properties::Default_Name => "/joy" applies to joy;
+	end joy_node;
+end joy;

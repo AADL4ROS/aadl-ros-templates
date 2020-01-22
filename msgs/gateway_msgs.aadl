@@ -1,0 +1,29 @@
+-- Auto-generated data for types gateway_msgs
+-- Generated on: 07/11/2017 17:24:53
+package gateway_msgs
+public
+	data ConnectionStatistics
+	end ConnectionStatistics;
+	
+	data ConnectionType
+	end ConnectionType;
+	
+	data ErrorCodes
+	end ErrorCodes;
+	
+	data GatewayInfo
+	end GatewayInfo;
+	
+	data RemoteGateway
+	end RemoteGateway;
+	
+	data RemoteRule
+	end RemoteRule;
+	
+	data RemoteRuleWithStatus
+	end RemoteRuleWithStatus;
+	
+	data Rule
+	end Rule;
+	
+end gateway_msgs;

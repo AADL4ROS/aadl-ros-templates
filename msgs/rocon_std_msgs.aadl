@@ -1,0 +1,53 @@
+-- Auto-generated data for types rocon_std_msgs
+-- Generated on: 07/11/2017 17:24:53
+package rocon_std_msgs
+public
+	data Connection
+	end Connection;
+	
+	data ConnectionCacheSpin
+	end ConnectionCacheSpin;
+	
+	data ConnectionsDiff
+	end ConnectionsDiff;
+	
+	data ConnectionsList
+	end ConnectionsList;
+	
+	data Float32Stamped
+	end Float32Stamped;
+	
+	data Icon
+	end Icon;
+	
+	data KeyValue
+	end KeyValue;
+	
+	data MasterInfo
+	end MasterInfo;
+	
+	data Remapping
+	end Remapping;
+	
+	data StringArray
+	end StringArray;
+	
+	data Strings
+	end Strings;
+	
+	data StringsPair
+	end StringsPair;
+	
+	data StringsPairRequest
+	end StringsPairRequest;
+	
+	data StringsPairResponse
+	end StringsPairResponse;
+	
+	data StringsRequest
+	end StringsRequest;
+	
+	data StringsResponse
+	end StringsResponse;
+	
+end rocon_std_msgs;

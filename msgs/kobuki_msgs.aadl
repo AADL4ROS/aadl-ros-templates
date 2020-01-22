@@ -1,0 +1,80 @@
+-- Auto-generated data for types kobuki_msgs
+-- Generated on: 07/11/2017 17:24:53
+package kobuki_msgs
+public
+	data AutoDockingAction
+	end AutoDockingAction;
+	
+	data AutoDockingActionFeedback
+	end AutoDockingActionFeedback;
+	
+	data AutoDockingActionGoal
+	end AutoDockingActionGoal;
+	
+	data AutoDockingActionResult
+	end AutoDockingActionResult;
+	
+	data AutoDockingFeedback
+	end AutoDockingFeedback;
+	
+	data AutoDockingGoal
+	end AutoDockingGoal;
+	
+	data AutoDockingResult
+	end AutoDockingResult;
+	
+	data BumperEvent
+	end BumperEvent;
+	
+	data ButtonEvent
+	end ButtonEvent;
+	
+	data CliffEvent
+	end CliffEvent;
+	
+	data ControllerInfo
+	end ControllerInfo;
+	
+	data DigitalInputEvent
+	end DigitalInputEvent;
+	
+	data DigitalOutput
+	end DigitalOutput;
+	
+	data DockInfraRed
+	end DockInfraRed;
+	
+	data ExternalPower
+	end ExternalPower;
+	
+	data KeyboardInput
+	end KeyboardInput;
+	
+	data Led
+	end Led;
+	
+	data MotorPower
+	end MotorPower;
+	
+	data PowerSystemEvent
+	end PowerSystemEvent;
+	
+	data RobotStateEvent
+	end RobotStateEvent;
+	
+	data ScanAngle
+	end ScanAngle;
+	
+	data SensorState
+	end SensorState;
+	
+	data Sound
+	end Sound;
+	
+	data VersionInfo
+	end VersionInfo;
+	
+	data WheelDropEvent
+	end WheelDropEvent;
+	
+end kobuki_msgs;

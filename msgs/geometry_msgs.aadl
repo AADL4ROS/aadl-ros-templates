@@ -1,0 +1,92 @@
+-- Auto-generated data for types geometry_msgs
+-- Generated on: 07/11/2017 17:24:53
+package geometry_msgs
+public
+	data Accel
+	end Accel;
+	
+	data AccelStamped
+	end AccelStamped;
+	
+	data AccelWithCovariance
+	end AccelWithCovariance;
+	
+	data AccelWithCovarianceStamped
+	end AccelWithCovarianceStamped;
+	
+	data Inertia
+	end Inertia;
+	
+	data InertiaStamped
+	end InertiaStamped;
+	
+	data Point
+	end Point;
+	
+	data Point32
+	end Point32;
+	
+	data PointStamped
+	end PointStamped;
+	
+	data Polygon
+	end Polygon;
+	
+	data PolygonStamped
+	end PolygonStamped;
+	
+	data Pose
+	end Pose;
+	
+	data Pose2D
+	end Pose2D;
+	
+	data PoseArray
+	end PoseArray;
+	
+	data PoseStamped
+	end PoseStamped;
+	
+	data PoseWithCovariance
+	end PoseWithCovariance;
+	
+	data PoseWithCovarianceStamped
+	end PoseWithCovarianceStamped;
+	
+	data Quaternion
+	end Quaternion;
+	
+	data QuaternionStamped
+	end QuaternionStamped;
+	
+	data Transform
+	end Transform;
+	
+	data TransformStamped
+	end TransformStamped;
+	
+	data Twist
+	end Twist;
+	
+	data TwistStamped
+	end TwistStamped;
+	
+	data TwistWithCovariance
+	end TwistWithCovariance;
+	
+	data TwistWithCovarianceStamped
+	end TwistWithCovarianceStamped;
+	
+	data Vector3
+	end Vector3;
+	
+	data Vector3Stamped
+	end Vector3Stamped;
+	
+	data Wrench
+	end Wrench;
+	
+	data WrenchStamped
+	end WrenchStamped;
+	
+end geometry_msgs;

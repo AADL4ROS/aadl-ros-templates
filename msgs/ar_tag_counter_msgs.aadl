@@ -1,0 +1,8 @@
+-- Auto-generated data for types ar_tag_counter_msgs
+-- Generated on: 07/11/2017 17:24:53
+package ar_tag_counter_msgs
+public
+	data ArTagCounter
+	end ArTagCounter;
+	
+end ar_tag_counter_msgs;

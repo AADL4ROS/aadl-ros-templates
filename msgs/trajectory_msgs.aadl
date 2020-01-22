@@ -1,0 +1,17 @@
+-- Auto-generated data for types trajectory_msgs
+-- Generated on: 07/11/2017 17:24:53
+package trajectory_msgs
+public
+	data JointTrajectory
+	end JointTrajectory;
+	
+	data JointTrajectoryPoint
+	end JointTrajectoryPoint;
+	
+	data MultiDOFJointTrajectory
+	end MultiDOFJointTrajectory;
+	
+	data MultiDOFJointTrajectoryPoint
+	end MultiDOFJointTrajectoryPoint;
+	
+end trajectory_msgs;

@@ -1,0 +1,17 @@
+-- Auto-generated data for types pcl_msgs
+-- Generated on: 07/11/2017 17:24:53
+package pcl_msgs
+public
+	data ModelCoefficients
+	end ModelCoefficients;
+	
+	data PointIndices
+	end PointIndices;
+	
+	data PolygonMesh
+	end PolygonMesh;
+	
+	data Vertices
+	end Vertices;
+	
+end pcl_msgs;

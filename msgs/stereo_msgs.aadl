@@ -1,0 +1,8 @@
+-- Auto-generated data for types stereo_msgs
+-- Generated on: 07/11/2017 17:24:53
+package stereo_msgs
+public
+	data DisparityImage
+	end DisparityImage;
+	
+end stereo_msgs;

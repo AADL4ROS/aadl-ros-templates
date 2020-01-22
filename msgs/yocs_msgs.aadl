@@ -1,0 +1,110 @@
+-- Auto-generated data for types yocs_msgs
+-- Generated on: 07/11/2017 17:24:53
+package yocs_msgs
+public
+	data ARPair
+	end ARPair;
+	
+	data ARPairList
+	end ARPairList;
+	
+	data Column
+	end Column;
+	
+	data ColumnList
+	end ColumnList;
+	
+	data DockingInteractorAction
+	end DockingInteractorAction;
+	
+	data DockingInteractorActionFeedback
+	end DockingInteractorActionFeedback;
+	
+	data DockingInteractorActionGoal
+	end DockingInteractorActionGoal;
+	
+	data DockingInteractorActionResult
+	end DockingInteractorActionResult;
+	
+	data DockingInteractorFeedback
+	end DockingInteractorFeedback;
+	
+	data DockingInteractorGoal
+	end DockingInteractorGoal;
+	
+	data DockingInteractorResult
+	end DockingInteractorResult;
+	
+	data LocalizeAction
+	end LocalizeAction;
+	
+	data LocalizeActionFeedback
+	end LocalizeActionFeedback;
+	
+	data LocalizeActionGoal
+	end LocalizeActionGoal;
+	
+	data LocalizeActionResult
+	end LocalizeActionResult;
+	
+	data LocalizeFeedback
+	end LocalizeFeedback;
+	
+	data LocalizeGoal
+	end LocalizeGoal;
+	
+	data LocalizeResult
+	end LocalizeResult;
+	
+	data NavigateToAction
+	end NavigateToAction;
+	
+	data NavigateToActionFeedback
+	end NavigateToActionFeedback;
+	
+	data NavigateToActionGoal
+	end NavigateToActionGoal;
+	
+	data NavigateToActionResult
+	end NavigateToActionResult;
+	
+	data NavigateToFeedback
+	end NavigateToFeedback;
+	
+	data NavigateToGoal
+	end NavigateToGoal;
+	
+	data NavigateToResult
+	end NavigateToResult;
+	
+	data NavigationControl
+	end NavigationControl;
+	
+	data NavigationControlStatus
+	end NavigationControlStatus;
+	
+	data Table
+	end Table;
+	
+	data TableList
+	end TableList;
+	
+	data Trajectory
+	end Trajectory;
+	
+	data TrajectoryList
+	end TrajectoryList;
+	
+	data Wall
+	end Wall;
+	
+	data WallList
+	end WallList;
+	
+	data Waypoint
+	end Waypoint;
+	
+	data WaypointList
+	end WaypointList;
+	
+end yocs_msgs;

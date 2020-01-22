@@ -1,0 +1,29 @@
+-- Auto-generated data for types rocon_interaction_msgs
+-- Generated on: 07/11/2017 17:24:53
+package rocon_interaction_msgs
+public
+	data ErrorCodes
+	end ErrorCodes;
+	
+	data Interaction
+	end Interaction;
+	
+	data InteractiveClient
+	end InteractiveClient;
+	
+	data InteractiveClients
+	end InteractiveClients;
+	
+	data Pairing
+	end Pairing;
+	
+	data PairingStatus
+	end PairingStatus;
+	
+	data RemoconStatus
+	end RemoconStatus;
+	
+	data Strings
+	end Strings;
+	
+end rocon_interaction_msgs;

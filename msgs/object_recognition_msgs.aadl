@@ -1,0 +1,44 @@
+-- Auto-generated data for types object_recognition_msgs
+-- Generated on: 07/11/2017 17:24:53
+package object_recognition_msgs
+public
+	data ObjectInformation
+	end ObjectInformation;
+	
+	data ObjectRecognitionAction
+	end ObjectRecognitionAction;
+	
+	data ObjectRecognitionActionFeedback
+	end ObjectRecognitionActionFeedback;
+	
+	data ObjectRecognitionActionGoal
+	end ObjectRecognitionActionGoal;
+	
+	data ObjectRecognitionActionResult
+	end ObjectRecognitionActionResult;
+	
+	data ObjectRecognitionFeedback
+	end ObjectRecognitionFeedback;
+	
+	data ObjectRecognitionGoal
+	end ObjectRecognitionGoal;
+	
+	data ObjectRecognitionResult
+	end ObjectRecognitionResult;
+	
+	data ObjectType
+	end ObjectType;
+	
+	data RecognizedObject
+	end RecognizedObject;
+	
+	data RecognizedObjectArray
+	end RecognizedObjectArray;
+	
+	data Table
+	end Table;
+	
+	data TableArray
+	end TableArray;
+	
+end object_recognition_msgs;

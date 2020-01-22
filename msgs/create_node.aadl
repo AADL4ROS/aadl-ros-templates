@@ -1,0 +1,23 @@
+-- Auto-generated data for types create_node
+-- Generated on: 07/11/2017 17:24:53
+package create_node
+public
+	data BatteryState
+	end BatteryState;
+	
+	data Drive
+	end Drive;
+	
+	data RawTurtlebotSensorState
+	end RawTurtlebotSensorState;
+	
+	data RoombaSensorState
+	end RoombaSensorState;
+	
+	data Turtle
+	end Turtle;
+	
+	data TurtlebotSensorState
+	end TurtlebotSensorState;
+	
+end create_node;

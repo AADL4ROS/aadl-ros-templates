@@ -1,0 +1,62 @@
+package templates
+public
+	with ros;
+	
+	process mux extends ros::node
+		features
+			input_list: in event data port [2];
+			output: out data port;
+			switch: provides subprogram access;
+	end mux;
+	
+	process state_machine extends ros::node
+		features
+			swtich: requires subprogram access;
+	end state_machine;
+	
+	process implementation mux.impl extends ros::node.impl
+		subcomponents
+			input_list_cb: thread ros::callback.impl [2];
+	connections
+		inputc: port input_list -> input_list_cb.msg
+		--{Connection_Pattern => ((One_To_One));}
+		;
+	end mux.impl;
+	
+	process transform extends ros::node
+		features
+			in_msgs: in event data port;
+			out_msgs: out data port;
+	end transform;
+	
+	process implementation transform.impl extends ros::node.impl
+		subcomponents
+			call_pub: thread ros::call_pub.impl;
+	connections
+		outc: port call_pub.msg_out -> out_msgs;
+		inc: port in_msgs -> call_pub.msg_in;
+	end transform.impl;
+	
+	process translate extends ros::node
+		features
+			in_msgs: in event data port;
+			out_msgs: out data port;
+	end translate;
+	
+	process implementation translate.impl extends ros::node.impl
+		subcomponents
+			subscriber: thread ros::callback.impl;
+			publisher: thread ros::publisher.impl;
+		connections
+			outc: port publisher.msg -> out_msgs;
+			inc: port in_msgs -> subscriber.msg;
+	end translate.impl;
+	
+	process overseer
+		features
+			notify_state: provides subprogram access ros::state_manager;
+	end overseer;
+	
+	thread socket_com
+	end socket_com;
+end templates;

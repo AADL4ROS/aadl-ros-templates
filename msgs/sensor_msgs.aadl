@@ -1,0 +1,86 @@
+-- Auto-generated data for types sensor_msgs
+-- Generated on: 07/11/2017 17:24:53
+package sensor_msgs
+public
+	data BatteryState
+	end BatteryState;
+	
+	data CameraInfo
+	end CameraInfo;
+	
+	data ChannelFloat32
+	end ChannelFloat32;
+	
+	data CompressedImage
+	end CompressedImage;
+	
+	data FluidPressure
+	end FluidPressure;
+	
+	data Illuminance
+	end Illuminance;
+	
+	data Image
+	end Image;
+	
+	data Imu
+	end Imu;
+	
+	data JointState
+	end JointState;
+	
+	data Joy
+	end Joy;
+	
+	data JoyFeedback
+	end JoyFeedback;
+	
+	data JoyFeedbackArray
+	end JoyFeedbackArray;
+	
+	data LaserEcho
+	end LaserEcho;
+	
+	data LaserScan
+	end LaserScan;
+	
+	data MagneticField
+	end MagneticField;
+	
+	data MultiDOFJointState
+	end MultiDOFJointState;
+	
+	data MultiEchoLaserScan
+	end MultiEchoLaserScan;
+	
+	data NavSatFix
+	end NavSatFix;
+	
+	data NavSatStatus
+	end NavSatStatus;
+	
+	data PointCloud
+	end PointCloud;
+	
+	data PointCloud2
+	end PointCloud2;
+	
+	data PointField
+	end PointField;
+	
+	data Range0
+	end Range0;
+	
+	data RegionOfInterest
+	end RegionOfInterest;
+	
+	data RelativeHumidity
+	end RelativeHumidity;
+	
+	data Temperature
+	end Temperature;
+	
+	data TimeReference
+	end TimeReference;
+	
+end sensor_msgs;

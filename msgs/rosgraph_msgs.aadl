@@ -1,0 +1,14 @@
+-- Auto-generated data for types rosgraph_msgs
+-- Generated on: 07/11/2017 17:24:53
+package rosgraph_msgs
+public
+	data Clock
+	end Clock;
+	
+	data Log
+	end Log;
+	
+	data TopicStatistics
+	end TopicStatistics;
+	
+end rosgraph_msgs;

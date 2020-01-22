@@ -1,0 +1,35 @@
+-- Auto-generated data for types visualization_msgs
+-- Generated on: 07/11/2017 17:24:53
+package visualization_msgs
+public
+	data ImageMarker
+	end ImageMarker;
+	
+	data InteractiveMarker
+	end InteractiveMarker;
+	
+	data InteractiveMarkerControl
+	end InteractiveMarkerControl;
+	
+	data InteractiveMarkerFeedback
+	end InteractiveMarkerFeedback;
+	
+	data InteractiveMarkerInit
+	end InteractiveMarkerInit;
+	
+	data InteractiveMarkerPose
+	end InteractiveMarkerPose;
+	
+	data InteractiveMarkerUpdate
+	end InteractiveMarkerUpdate;
+	
+	data Marker
+	end Marker;
+	
+	data MarkerArray
+	end MarkerArray;
+	
+	data MenuEntry
+	end MenuEntry;
+	
+end visualization_msgs;

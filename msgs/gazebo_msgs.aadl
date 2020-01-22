@@ -1,0 +1,32 @@
+-- Auto-generated data for types gazebo_msgs
+-- Generated on: 07/11/2017 17:24:53
+package gazebo_msgs
+public
+	data ContactState
+	end ContactState;
+	
+	data ContactsState
+	end ContactsState;
+	
+	data LinkState
+	end LinkState;
+	
+	data LinkStates
+	end LinkStates;
+	
+	data ModelState
+	end ModelState;
+	
+	data ModelStates
+	end ModelStates;
+	
+	data ODEJointProperties
+	end ODEJointProperties;
+	
+	data ODEPhysics
+	end ODEPhysics;
+	
+	data WorldState
+	end WorldState;
+	
+end gazebo_msgs;

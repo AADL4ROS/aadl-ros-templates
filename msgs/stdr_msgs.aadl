@@ -1,0 +1,140 @@
+-- Auto-generated data for types stdr_msgs
+-- Generated on: 07/11/2017 17:24:53
+package stdr_msgs
+public
+	data CO2SensorMeasurementMsg
+	end CO2SensorMeasurementMsg;
+	
+	data CO2SensorMsg
+	end CO2SensorMsg;
+	
+	data CO2Source
+	end CO2Source;
+	
+	data CO2SourceVector
+	end CO2SourceVector;
+	
+	data DeleteRobotAction
+	end DeleteRobotAction;
+	
+	data DeleteRobotActionFeedback
+	end DeleteRobotActionFeedback;
+	
+	data DeleteRobotActionGoal
+	end DeleteRobotActionGoal;
+	
+	data DeleteRobotActionResult
+	end DeleteRobotActionResult;
+	
+	data DeleteRobotFeedback
+	end DeleteRobotFeedback;
+	
+	data DeleteRobotGoal
+	end DeleteRobotGoal;
+	
+	data DeleteRobotResult
+	end DeleteRobotResult;
+	
+	data FootprintMsg
+	end FootprintMsg;
+	
+	data KinematicMsg
+	end KinematicMsg;
+	
+	data LaserSensorMsg
+	end LaserSensorMsg;
+	
+	data Noise
+	end Noise;
+	
+	data RegisterRobotAction
+	end RegisterRobotAction;
+	
+	data RegisterRobotActionFeedback
+	end RegisterRobotActionFeedback;
+	
+	data RegisterRobotActionGoal
+	end RegisterRobotActionGoal;
+	
+	data RegisterRobotActionResult
+	end RegisterRobotActionResult;
+	
+	data RegisterRobotFeedback
+	end RegisterRobotFeedback;
+	
+	data RegisterRobotGoal
+	end RegisterRobotGoal;
+	
+	data RegisterRobotResult
+	end RegisterRobotResult;
+	
+	data RfidSensorMeasurementMsg
+	end RfidSensorMeasurementMsg;
+	
+	data RfidSensorMsg
+	end RfidSensorMsg;
+	
+	data RfidTag
+	end RfidTag;
+	
+	data RfidTagVector
+	end RfidTagVector;
+	
+	data RobotIndexedMsg
+	end RobotIndexedMsg;
+	
+	data RobotIndexedVectorMsg
+	end RobotIndexedVectorMsg;
+	
+	data RobotMsg
+	end RobotMsg;
+	
+	data SonarSensorMsg
+	end SonarSensorMsg;
+	
+	data SoundSensorMeasurementMsg
+	end SoundSensorMeasurementMsg;
+	
+	data SoundSensorMsg
+	end SoundSensorMsg;
+	
+	data SoundSource
+	end SoundSource;
+	
+	data SoundSourceVector
+	end SoundSourceVector;
+	
+	data SpawnRobotAction
+	end SpawnRobotAction;
+	
+	data SpawnRobotActionFeedback
+	end SpawnRobotActionFeedback;
+	
+	data SpawnRobotActionGoal
+	end SpawnRobotActionGoal;
+	
+	data SpawnRobotActionResult
+	end SpawnRobotActionResult;
+	
+	data SpawnRobotFeedback
+	end SpawnRobotFeedback;
+	
+	data SpawnRobotGoal
+	end SpawnRobotGoal;
+	
+	data SpawnRobotResult
+	end SpawnRobotResult;
+	
+	data ThermalSensorMeasurementMsg
+	end ThermalSensorMeasurementMsg;
+	
+	data ThermalSensorMsg
+	end ThermalSensorMsg;
+	
+	data ThermalSource
+	end ThermalSource;
+	
+	data ThermalSourceVector
+	end ThermalSourceVector;
+	
+end stdr_msgs;

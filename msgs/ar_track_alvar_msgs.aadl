@@ -1,0 +1,11 @@
+-- Auto-generated data for types ar_track_alvar_msgs
+-- Generated on: 07/11/2017 17:24:53
+package ar_track_alvar_msgs
+public
+	data AlvarMarker
+	end AlvarMarker;
+	
+	data AlvarMarkers
+	end AlvarMarkers;
+	
+end ar_track_alvar_msgs;

@@ -1,0 +1,8 @@
+-- Auto-generated data for types roscpp
+-- Generated on: 07/11/2017 17:24:53
+package roscpp
+public
+	data Logger
+	end Logger;
+	
+end roscpp;

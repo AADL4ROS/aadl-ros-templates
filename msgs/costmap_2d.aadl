@@ -1,0 +1,8 @@
+-- Auto-generated data for types costmap_2d
+-- Generated on: 07/11/2017 17:24:53
+package costmap_2d
+public
+	data VoxelGrid
+	end VoxelGrid;
+	
+end costmap_2d;

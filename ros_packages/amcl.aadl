@@ -1,0 +1,20 @@
+-- Auto-generated process interfaces for amcl
+-- Generated on: 17/11/2017 17:28:07
+package amcl
+public
+with topic_properties, geometry_msgs, sensor_msgs, nav_msgs;
+    process amcl
+        features
+            amcl_pose: out data port geometry_msgs::PoseWithCovarianceStamped;
+            particlecloud: out data port geometry_msgs::PoseArray;
+            scan: in event data port sensor_msgs::LaserScan;
+            map: in event data port nav_msgs::OccupancyGrid;
+            initialpose: in event data port geometry_msgs::PoseWithCovarianceStamped;
+        properties
+            topic_properties::Default_Name => "/amcl_pose" applies to amcl_pose;
+            topic_properties::Default_Name => "/particlecloud" applies to particlecloud;
+            topic_properties::Default_Name => "/scan" applies to scan;
+            topic_properties::Default_Name => "/map" applies to map;
+            topic_properties::Default_Name => "/initialpose" applies to initialpose;
+    end amcl;
+end amcl;

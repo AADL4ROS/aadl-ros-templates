@@ -1,0 +1,101 @@
+-- Auto-generated data for types ardrone_autonomy
+-- Generated on: 07/11/2017 17:24:53
+package ardrone_autonomy
+public
+	data Navdata
+	end Navdata;
+	
+	data matrix33
+	end matrix33;
+	
+	data navdata_adc_data_frame
+	end navdata_adc_data_frame;
+	
+	data navdata_altitude
+	end navdata_altitude;
+	
+	data navdata_demo
+	end navdata_demo;
+	
+	data navdata_euler_angles
+	end navdata_euler_angles;
+	
+	data navdata_games
+	end navdata_games;
+	
+	data navdata_gyros_offsets
+	end navdata_gyros_offsets;
+	
+	data navdata_hdvideo_stream
+	end navdata_hdvideo_stream;
+	
+	data navdata_kalman_pressure
+	end navdata_kalman_pressure;
+	
+	data navdata_magneto
+	end navdata_magneto;
+	
+	data navdata_phys_measures
+	end navdata_phys_measures;
+	
+	data navdata_pressure_raw
+	end navdata_pressure_raw;
+	
+	data navdata_pwm
+	end navdata_pwm;
+	
+	data navdata_raw_measures
+	end navdata_raw_measures;
+	
+	data navdata_rc_references
+	end navdata_rc_references;
+	
+	data navdata_references
+	end navdata_references;
+	
+	data navdata_time
+	end navdata_time;
+	
+	data navdata_trackers_send
+	end navdata_trackers_send;
+	
+	data navdata_trims
+	end navdata_trims;
+	
+	data navdata_video_stream
+	end navdata_video_stream;
+	
+	data navdata_vision
+	end navdata_vision;
+	
+	data navdata_vision_detect
+	end navdata_vision_detect;
+	
+	data navdata_vision_of
+	end navdata_vision_of;
+	
+	data navdata_vision_perf
+	end navdata_vision_perf;
+	
+	data navdata_vision_raw
+	end navdata_vision_raw;
+	
+	data navdata_watchdog
+	end navdata_watchdog;
+	
+	data navdata_wifi
+	end navdata_wifi;
+	
+	data navdata_wind_speed
+	end navdata_wind_speed;
+	
+	data navdata_zimmu_3000
+	end navdata_zimmu_3000;
+	
+	data vector21
+	end vector21;
+	
+	data vector31
+	end vector31;
+	
+end ardrone_autonomy;

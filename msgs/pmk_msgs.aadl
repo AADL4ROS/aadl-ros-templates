@@ -1,0 +1,11 @@
+-- Auto-generated data for types pmk_msgs
+-- Generated on: 07/11/2017 17:24:53
+package pmk_msgs
+public
+	data obstacleSide
+	end obstacleSide;
+	
+	data obstacleSideSet
+	end obstacleSideSet;
+	
+end pmk_msgs;

@@ -1,0 +1,26 @@
+-- Auto-generated data for types teleop_tools_msgs
+-- Generated on: 07/11/2017 17:24:53
+package teleop_tools_msgs
+public
+	data IncrementAction
+	end IncrementAction;
+	
+	data IncrementActionFeedback
+	end IncrementActionFeedback;
+	
+	data IncrementActionGoal
+	end IncrementActionGoal;
+	
+	data IncrementActionResult
+	end IncrementActionResult;
+	
+	data IncrementFeedback
+	end IncrementFeedback;
+	
+	data IncrementGoal
+	end IncrementGoal;
+	
+	data IncrementResult
+	end IncrementResult;
+	
+end teleop_tools_msgs;

@@ -1,0 +1,68 @@
+-- Auto-generated data for types actionlib
+-- Generated on: 07/11/2017 17:24:53
+package actionlib
+public
+	data TestAction
+	end TestAction;
+	
+	data TestActionFeedback
+	end TestActionFeedback;
+	
+	data TestActionGoal
+	end TestActionGoal;
+	
+	data TestActionResult
+	end TestActionResult;
+	
+	data TestFeedback
+	end TestFeedback;
+	
+	data TestGoal
+	end TestGoal;
+	
+	data TestRequestAction
+	end TestRequestAction;
+	
+	data TestRequestActionFeedback
+	end TestRequestActionFeedback;
+	
+	data TestRequestActionGoal
+	end TestRequestActionGoal;
+	
+	data TestRequestActionResult
+	end TestRequestActionResult;
+	
+	data TestRequestFeedback
+	end TestRequestFeedback;
+	
+	data TestRequestGoal
+	end TestRequestGoal;
+	
+	data TestRequestResult
+	end TestRequestResult;
+	
+	data TestResult
+	end TestResult;
+	
+	data TwoIntsAction
+	end TwoIntsAction;
+	
+	data TwoIntsActionFeedback
+	end TwoIntsActionFeedback;
+	
+	data TwoIntsActionGoal
+	end TwoIntsActionGoal;
+	
+	data TwoIntsActionResult
+	end TwoIntsActionResult;
+	
+	data TwoIntsFeedback
+	end TwoIntsFeedback;
+	
+	data TwoIntsGoal
+	end TwoIntsGoal;
+	
+	data TwoIntsResult
+	end TwoIntsResult;
+	
+end actionlib;

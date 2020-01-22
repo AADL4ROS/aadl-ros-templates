@@ -1,0 +1,14 @@
+-- Auto-generated data for types zeroconf_msgs
+-- Generated on: 07/11/2017 17:24:53
+package zeroconf_msgs
+public
+	data DiscoveredService
+	end DiscoveredService;
+	
+	data Protocols
+	end Protocols;
+	
+	data PublishedService
+	end PublishedService;
+	
+end zeroconf_msgs;

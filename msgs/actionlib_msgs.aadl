@@ -1,0 +1,14 @@
+-- Auto-generated data for types actionlib_msgs
+-- Generated on: 07/11/2017 17:24:53
+package actionlib_msgs
+public
+	data GoalID
+	end GoalID;
+	
+	data GoalStatus
+	end GoalStatus;
+	
+	data GoalStatusArray
+	end GoalStatusArray;
+	
+end actionlib_msgs;

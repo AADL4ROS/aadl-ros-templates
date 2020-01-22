@@ -1,0 +1,32 @@
+-- Auto-generated data for types tf2_msgs
+-- Generated on: 07/11/2017 17:24:53
+package tf2_msgs
+public
+	data LookupTransformAction
+	end LookupTransformAction;
+	
+	data LookupTransformActionFeedback
+	end LookupTransformActionFeedback;
+	
+	data LookupTransformActionGoal
+	end LookupTransformActionGoal;
+	
+	data LookupTransformActionResult
+	end LookupTransformActionResult;
+	
+	data LookupTransformFeedback
+	end LookupTransformFeedback;
+	
+	data LookupTransformGoal
+	end LookupTransformGoal;
+	
+	data LookupTransformResult
+	end LookupTransformResult;
+	
+	data TF2Error
+	end TF2Error;
+	
+	data TFMessage
+	end TFMessage;
+	
+end tf2_msgs;

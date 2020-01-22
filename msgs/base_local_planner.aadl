@@ -1,0 +1,8 @@
+-- Auto-generated data for types base_local_planner
+-- Generated on: 07/11/2017 17:24:53
+package base_local_planner
+public
+	data Position2DInt
+	end Position2DInt;
+	
+end base_local_planner;

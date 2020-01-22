@@ -1,0 +1,32 @@
+-- Auto-generated data for types dynamic_reconfigure
+-- Generated on: 07/11/2017 17:24:53
+package dynamic_reconfigure
+public
+	data BoolParameter
+	end BoolParameter;
+	
+	data Config
+	end Config;
+	
+	data ConfigDescription
+	end ConfigDescription;
+	
+	data DoubleParameter
+	end DoubleParameter;
+	
+	data GroupState
+	end GroupState;
+	
+	data IntParameter
+	end IntParameter;
+	
+	data ParamDescription
+	end ParamDescription;
+	
+	data SensorLevels
+	end SensorLevels;
+	
+	data StrParameter
+	end StrParameter;
+	
+end dynamic_reconfigure;

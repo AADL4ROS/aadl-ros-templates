@@ -1,0 +1,11 @@
+-- Auto-generated data for types rospy_tutorials
+-- Generated on: 07/11/2017 17:24:53
+package rospy_tutorials
+public
+	data Floats
+	end Floats;
+	
+	data HeaderString
+	end HeaderString;
+	
+end rospy_tutorials;

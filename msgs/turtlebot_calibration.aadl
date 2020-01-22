@@ -1,0 +1,8 @@
+-- Auto-generated data for types turtlebot_calibration
+-- Generated on: 07/11/2017 17:24:53
+package turtlebot_calibration
+public
+	data ScanAngle
+	end ScanAngle;
+	
+end turtlebot_calibration;

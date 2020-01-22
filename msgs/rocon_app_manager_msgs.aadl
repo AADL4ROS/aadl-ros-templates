@@ -1,0 +1,29 @@
+-- Auto-generated data for types rocon_app_manager_msgs
+-- Generated on: 07/11/2017 17:24:53
+package rocon_app_manager_msgs
+public
+	data Constants
+	end Constants;
+	
+	data ErrorCodes
+	end ErrorCodes;
+	
+	data IncompatibleRappList
+	end IncompatibleRappList;
+	
+	data PublicInterface
+	end PublicInterface;
+	
+	data PublishedInterface
+	end PublishedInterface;
+	
+	data Rapp
+	end Rapp;
+	
+	data RappList
+	end RappList;
+	
+	data Status
+	end Status;
+	
+end rocon_app_manager_msgs;

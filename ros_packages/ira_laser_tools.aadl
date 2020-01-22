@@ -1,0 +1,15 @@
+package ira_laser_tools
+public
+with topic_properties, sensor_msgs;
+	process laserscan_multi_merger
+		features
+			in_laser_1: in event data port sensor_msgs::LaserScan;
+			in_laser_2: in event data port sensor_msgs::LaserScan;
+			out_laser: out data port sensor_msgs::LaserScan;
+		properties
+			topic_properties::Default_Name => "/in_scan_1" applies to in_laser_1;
+			topic_properties::Default_Name => "/in_scan_2" applies to in_laser_2;
+			topic_properties::Default_Name => "/scan" applies to out_laser;
+	end laserscan_multi_merger;
+
+end ira_laser_tools;

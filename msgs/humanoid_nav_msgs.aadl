@@ -1,0 +1,29 @@
+-- Auto-generated data for types humanoid_nav_msgs
+-- Generated on: 07/11/2017 17:24:53
+package humanoid_nav_msgs
+public
+	data ExecFootstepsAction
+	end ExecFootstepsAction;
+	
+	data ExecFootstepsActionFeedback
+	end ExecFootstepsActionFeedback;
+	
+	data ExecFootstepsActionGoal
+	end ExecFootstepsActionGoal;
+	
+	data ExecFootstepsActionResult
+	end ExecFootstepsActionResult;
+	
+	data ExecFootstepsFeedback
+	end ExecFootstepsFeedback;
+	
+	data ExecFootstepsGoal
+	end ExecFootstepsGoal;
+	
+	data ExecFootstepsResult
+	end ExecFootstepsResult;
+	
+	data StepTarget
+	end StepTarget;
+	
+end humanoid_nav_msgs;

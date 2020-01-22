@@ -1,0 +1,26 @@
+-- Auto-generated data for types move_base_msgs
+-- Generated on: 07/11/2017 17:24:53
+package move_base_msgs
+public
+	data MoveBaseAction
+	end MoveBaseAction;
+	
+	data MoveBaseActionFeedback
+	end MoveBaseActionFeedback;
+	
+	data MoveBaseActionGoal
+	end MoveBaseActionGoal;
+	
+	data MoveBaseActionResult
+	end MoveBaseActionResult;
+	
+	data MoveBaseFeedback
+	end MoveBaseFeedback;
+	
+	data MoveBaseGoal
+	end MoveBaseGoal;
+	
+	data MoveBaseResult
+	end MoveBaseResult;
+	
+end move_base_msgs;

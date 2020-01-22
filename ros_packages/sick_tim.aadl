@@ -1,0 +1,13 @@
+package sick_tim
+public
+	with topic_properties, sensor_msgs, std_msgs; 
+	
+	process sick_tim551_2050001
+		features
+			scan: out data port sensor_msgs::LaserScan;
+			datagram: out data port std_msgs::String;
+		properties
+			topic_properties::Default_Name => "/scan" applies to scan;
+			topic_properties::Default_Name => "/datagram" applies to datagram;
+	end sick_tim551_2050001;
+end sick_tim;

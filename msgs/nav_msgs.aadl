@@ -1,0 +1,41 @@
+-- Auto-generated data for types nav_msgs
+-- Generated on: 07/11/2017 17:24:53
+package nav_msgs
+public
+	data GetMapAction
+	end GetMapAction;
+	
+	data GetMapActionFeedback
+	end GetMapActionFeedback;
+	
+	data GetMapActionGoal
+	end GetMapActionGoal;
+	
+	data GetMapActionResult
+	end GetMapActionResult;
+	
+	data GetMapFeedback
+	end GetMapFeedback;
+	
+	data GetMapGoal
+	end GetMapGoal;
+	
+	data GetMapResult
+	end GetMapResult;
+	
+	data GridCells
+	end GridCells;
+	
+	data MapMetaData
+	end MapMetaData;
+	
+	data OccupancyGrid
+	end OccupancyGrid;
+	
+	data Odometry
+	end Odometry;
+	
+	data Path0
+	end Path0;
+	
+end nav_msgs;

@@ -1,0 +1,17 @@
+-- Auto-generated data for types shape_msgs
+-- Generated on: 07/11/2017 17:24:53
+package shape_msgs
+public
+	data Mesh
+	end Mesh;
+	
+	data MeshTriangle
+	end MeshTriangle;
+	
+	data Plane
+	end Plane;
+	
+	data SolidPrimitive
+	end SolidPrimitive;
+	
+end shape_msgs;

@@ -1,0 +1,20 @@
+-- Auto-generated data for types capabilities
+-- Generated on: 07/11/2017 17:24:53
+package capabilities
+public
+	data Capability
+	end Capability;
+	
+	data CapabilityEvent
+	end CapabilityEvent;
+	
+	data CapabilitySpec
+	end CapabilitySpec;
+	
+	data Remapping
+	end Remapping;
+	
+	data RunningCapability
+	end RunningCapability;
+	
+end capabilities;

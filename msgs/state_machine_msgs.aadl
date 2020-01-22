@@ -1,0 +1,8 @@
+package state_machine_msgs
+public
+	subprogram GetState
+	end GetState;
+	
+	subprogram SendState
+	end SendState;
+end state_machine_msgs;

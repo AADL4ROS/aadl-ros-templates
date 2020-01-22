@@ -1,0 +1,9 @@
+package xsens_driver
+public
+	
+	process mtnode
+		features
+			data_in: in data port;
+			imu_data: out data port;		
+	end mtnode;
+end xsens_driver;

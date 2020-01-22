@@ -1,0 +1,8 @@
+-- Auto-generated data for types urg_node
+-- Generated on: 07/11/2017 17:24:53
+package urg_node
+public
+	data Status
+	end Status;
+	
+end urg_node;

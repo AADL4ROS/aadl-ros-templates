@@ -1,0 +1,29 @@
+-- Auto-generated data for types turtle_actionlib
+-- Generated on: 07/11/2017 17:24:53
+package turtle_actionlib
+public
+	data ShapeAction
+	end ShapeAction;
+	
+	data ShapeActionFeedback
+	end ShapeActionFeedback;
+	
+	data ShapeActionGoal
+	end ShapeActionGoal;
+	
+	data ShapeActionResult
+	end ShapeActionResult;
+	
+	data ShapeFeedback
+	end ShapeFeedback;
+	
+	data ShapeGoal
+	end ShapeGoal;
+	
+	data ShapeResult
+	end ShapeResult;
+	
+	data Velocity
+	end Velocity;
+	
+end turtle_actionlib;

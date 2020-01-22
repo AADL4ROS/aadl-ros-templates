@@ -1,0 +1,47 @@
+-- Auto-generated data for types turtlebot_actions
+-- Generated on: 07/11/2017 17:24:53
+package turtlebot_actions
+public
+	data FindFiducialAction
+	end FindFiducialAction;
+	
+	data FindFiducialActionFeedback
+	end FindFiducialActionFeedback;
+	
+	data FindFiducialActionGoal
+	end FindFiducialActionGoal;
+	
+	data FindFiducialActionResult
+	end FindFiducialActionResult;
+	
+	data FindFiducialFeedback
+	end FindFiducialFeedback;
+	
+	data FindFiducialGoal
+	end FindFiducialGoal;
+	
+	data FindFiducialResult
+	end FindFiducialResult;
+	
+	data TurtlebotMoveAction
+	end TurtlebotMoveAction;
+	
+	data TurtlebotMoveActionFeedback
+	end TurtlebotMoveActionFeedback;
+	
+	data TurtlebotMoveActionGoal
+	end TurtlebotMoveActionGoal;
+	
+	data TurtlebotMoveActionResult
+	end TurtlebotMoveActionResult;
+	
+	data TurtlebotMoveFeedback
+	end TurtlebotMoveFeedback;
+	
+	data TurtlebotMoveGoal
+	end TurtlebotMoveGoal;
+	
+	data TurtlebotMoveResult
+	end TurtlebotMoveResult;
+	
+end turtlebot_actions;

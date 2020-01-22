@@ -1,0 +1,53 @@
+-- Auto-generated process interfaces for move_base
+-- Generated on: 20/11/2017 10:46:46
+package move_base
+public
+with topic_properties, geometry_msgs, nav_msgs, sensor_msgs, map_msgs;
+    process move_base
+        features
+            move_base_global_costmap_costmap_updates: out data port map_msgs::OccupancyGridUpdate;
+            move_base_current_goal: out data port geometry_msgs::PoseStamped;
+            move_base_local_costmap_costmap: out data port nav_msgs::OccupancyGrid;
+            cmd_vel: out data port geometry_msgs::Twist;
+            move_base_local_costmap_costmap_updates: out data port map_msgs::OccupancyGridUpdate;
+            move_base_NavfnROS_plan: out data port nav_msgs::Path0;
+            move_base_DWAPlannerROS_trajectory_cloud: out data port sensor_msgs::PointCloud2;
+            move_base_global_costmap_obstacle_layer_clearing_endpoints: out data port sensor_msgs::PointCloud;
+            move_base_DWAPlannerROS_cost_cloud: out data port sensor_msgs::PointCloud2;
+            move_base_global_costmap_footprint: out data port geometry_msgs::PolygonStamped;
+            move_base_global_costmap_costmap: out data port nav_msgs::OccupancyGrid;
+            move_base_local_costmap_obstacle_layer_clearing_endpoints: out data port sensor_msgs::PointCloud;
+            move_base_local_costmap_footprint: out data port geometry_msgs::PolygonStamped;
+            move_base_DWAPlannerROS_global_plan: out data port nav_msgs::Path0;
+            move_base_DWAPlannerROS_local_plan: out data port nav_msgs::Path0;
+            move_base_local_costmap_footprint_out: in event data port geometry_msgs::PolygonStamped;
+            scan: in event data port sensor_msgs::LaserScan;
+            move_base_simple_goal: in event data port geometry_msgs::PoseStamped;
+            map: in event data port nav_msgs::OccupancyGrid;
+            move_base_global_costmap_footprint_out: in event data port geometry_msgs::PolygonStamped;
+            odom: in event data port nav_msgs::Odometry;
+        properties
+            topic_properties::Default_Name => "/move_base/global_costmap/costmap_updates" applies to move_base_global_costmap_costmap_updates;
+            topic_properties::Default_Name => "/move_base/current_goal" applies to move_base_current_goal;
+            topic_properties::Default_Name => "/move_base/local_costmap/costmap" applies to move_base_local_costmap_costmap;
+            topic_properties::Default_Name => "cmd_vel" applies to cmd_vel;
+            topic_properties::Default_Name => "/move_base/local_costmap/costmap_updates" applies to move_base_local_costmap_costmap_updates;
+            topic_properties::Default_Name => "/move_base/NavfnROS/plan" applies to move_base_NavfnROS_plan;
+            topic_properties::Default_Name => "/move_base/DWAPlannerROS/trajectory_cloud" applies to move_base_DWAPlannerROS_trajectory_cloud;
+            topic_properties::Default_Name => "/move_base/global_costmap/obstacle_layer/clearing_endpoints" applies to move_base_global_costmap_obstacle_layer_clearing_endpoints;
+            topic_properties::Default_Name => "/move_base/DWAPlannerROS/cost_cloud" applies to move_base_DWAPlannerROS_cost_cloud;
+            topic_properties::Default_Name => "/move_base/global_costmap/footprint" applies to move_base_global_costmap_footprint;
+            topic_properties::Default_Name => "/move_base/global_costmap/costmap" applies to move_base_global_costmap_costmap;
+            topic_properties::Default_Name => "/move_base/local_costmap/obstacle_layer/clearing_endpoints" applies to move_base_local_costmap_obstacle_layer_clearing_endpoints;
+            topic_properties::Default_Name => "/move_base/local_costmap/footprint" applies to move_base_local_costmap_footprint;
+            topic_properties::Default_Name => "/move_base/DWAPlannerROS/global_plan" applies to move_base_DWAPlannerROS_global_plan;
+            topic_properties::Default_Name => "/move_base/DWAPlannerROS/local_plan" applies to move_base_DWAPlannerROS_local_plan;
+            topic_properties::Default_Name => "/move_base/local_costmap/footprint" applies to move_base_local_costmap_footprint_out;
+            topic_properties::Default_Name => "/scan" applies to scan;
+            topic_properties::Default_Name => "/move_base_simple/goal" applies to move_base_simple_goal;
+            topic_properties::Default_Name => "/map" applies to map;
+            topic_properties::Default_Name => "/move_base/global_costmap/footprint" applies to move_base_global_costmap_footprint_out;
+            topic_properties::Default_Name => "/odom" applies to odom;
+    end move_base;
+    
+end move_base;

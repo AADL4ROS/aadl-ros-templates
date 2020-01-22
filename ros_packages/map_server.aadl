@@ -1,0 +1,15 @@
+-- Auto-generated process interfaces for map_server
+-- Generated on: 20/11/2017 10:59:16
+package map_server
+public
+with topic_properties, nav_msgs;
+    process map_server
+        features
+            map_metadata: out data port nav_msgs::MapMetaData;
+            map: out data port nav_msgs::OccupancyGrid;
+        properties
+            topic_properties::Default_Name => "/map_metadata" applies to map_metadata;
+            topic_properties::Default_Name => "/map" applies to map;
+    end map_server;
+    
+end map_server;

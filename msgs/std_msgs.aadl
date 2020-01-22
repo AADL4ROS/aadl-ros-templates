@@ -1,0 +1,101 @@
+-- Auto-generated data for types std_msgs
+-- Generated on: 07/11/2017 17:24:53
+package std_msgs
+public
+	data Bool
+	end Bool;
+	
+	data Byte
+	end Byte;
+	
+	data ByteMultiArray
+	end ByteMultiArray;
+	
+	data Char
+	end Char;
+	
+	data ColorRGBA
+	end ColorRGBA;
+	
+	data Duration
+	end Duration;
+	
+	data Empty
+	end Empty;
+	
+	data Float32
+	end Float32;
+	
+	data Float32MultiArray
+	end Float32MultiArray;
+	
+	data Float64
+	end Float64;
+	
+	data Float64MultiArray
+	end Float64MultiArray;
+	
+	data Header
+	end Header;
+	
+	data Int16
+	end Int16;
+	
+	data Int16MultiArray
+	end Int16MultiArray;
+	
+	data Int32
+	end Int32;
+	
+	data Int32MultiArray
+	end Int32MultiArray;
+	
+	data Int64
+	end Int64;
+	
+	data Int64MultiArray
+	end Int64MultiArray;
+	
+	data Int8
+	end Int8;
+	
+	data Int8MultiArray
+	end Int8MultiArray;
+	
+	data MultiArrayDimension
+	end MultiArrayDimension;
+	
+	data MultiArrayLayout
+	end MultiArrayLayout;
+	
+	data String
+	end String;
+	
+	data Time
+	end Time;
+	
+	data UInt16
+	end UInt16;
+	
+	data UInt16MultiArray
+	end UInt16MultiArray;
+	
+	data UInt32
+	end UInt32;
+	
+	data UInt32MultiArray
+	end UInt32MultiArray;
+	
+	data UInt64
+	end UInt64;
+	
+	data UInt64MultiArray
+	end UInt64MultiArray;
+	
+	data UInt8
+	end UInt8;
+	
+	data UInt8MultiArray
+	end UInt8MultiArray;
+	
+end std_msgs;

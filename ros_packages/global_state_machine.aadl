@@ -1,0 +1,32 @@
+package global_state_machine
+public
+	with topic_properties, state_machine_msgs, std_msgs;
+	
+	subprogram GetGlobalState
+	end GetGlobalState;
+	
+	subprogram SetGlobalState
+	end SetGlobalState;
+	
+	process overseer
+		features
+			state: out data port std_msgs::Int32;
+			set_global_state: provides subprogram access SetGlobalState;
+			get_global_state: provides subprogram access GetGlobalState;
+			notify_state: provides subprogram access state_machine_msgs::SendState;
+			query_state: provides subprogram access state_machine_msgs::GetState;
+		properties
+			topic_properties::Default_Name => "/global_state" applies to state;
+			topic_properties::Default_Name => "/state_notifier" applies to notify_state;
+			topic_properties::Default_Name => "/state_query" applies to query_state;
+			topic_properties::Default_Name => "/set_global_state" applies to set_global_state;
+			topic_properties::Default_Name => "/get_global_state" applies to get_global_state;
+	end overseer;
+	
+	thread client_set_global_state
+		features
+			srv: requires subprogram access SetGlobalState;
+	end client_set_global_state;
+	
+	
+end global_state_machine;

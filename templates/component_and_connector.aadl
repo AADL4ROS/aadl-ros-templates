@@ -1,0 +1,59 @@
+package component_and_connector
+public
+	data internal_state	
+	end internal_state;
+	
+	subprogram function
+	features
+		signal: out event port;
+		ist: requires data access internal_state;
+	end function;
+			
+	process component
+	end component;
+	
+	process implementation component.impl
+		subcomponents
+			internal_state: data internal_state;
+	end component.impl;
+	
+	thread component_behaviour
+		features
+			ist: requires data access internal_state;
+	end component_behaviour;
+	
+	thread implementation component_behaviour.impl
+		subcomponents
+			function: subprogram function;
+		connections
+			pc: data access function.ist -> ist;
+	end component_behaviour.impl;
+	
+	thread filter extends component_behaviour
+		features
+			msg_in: in event data port;
+			msg_out: out data port;			
+		properties
+			Dispatch_Protocol => Aperiodic;			
+	end filter;
+		
+	thread message_sink extends component_behaviour
+		features
+			msg: in event data port;
+		properties
+			Dispatch_Protocol => Aperiodic;
+	end message_sink;
+			
+	thread message_source extends component_behaviour
+		features
+			msg: out data port;
+		properties
+			Dispatch_Protocol => Periodic;
+	end message_source;
+			
+	thread reactive extends component_behaviour
+		features
+			srv: provides subprogram access;
+	end reactive;
+	
+end component_and_connector;

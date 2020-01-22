@@ -1,0 +1,9 @@
+package nmea_navsat_driver
+public
+	
+	process nmea_serial_driver
+		features
+			data_in: in data port;
+			fix: out data port;		
+	end nmea_serial_driver;
+end nmea_navsat_driver;

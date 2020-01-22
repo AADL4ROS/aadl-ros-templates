@@ -1,0 +1,206 @@
+-- Auto-generated data for types moveit_msgs
+-- Generated on: 07/11/2017 17:24:53
+package moveit_msgs
+public
+	data AllowedCollisionEntry
+	end AllowedCollisionEntry;
+	
+	data AllowedCollisionMatrix
+	end AllowedCollisionMatrix;
+	
+	data AttachedCollisionObject
+	end AttachedCollisionObject;
+	
+	data BoundingVolume
+	end BoundingVolume;
+	
+	data CollisionObject
+	end CollisionObject;
+	
+	data ConstraintEvalResult
+	end ConstraintEvalResult;
+	
+	data Constraints
+	end Constraints;
+	
+	data ContactInformation
+	end ContactInformation;
+	
+	data CostSource
+	end CostSource;
+	
+	data DisplayRobotState
+	end DisplayRobotState;
+	
+	data DisplayTrajectory
+	end DisplayTrajectory;
+	
+	data ExecuteTrajectoryAction
+	end ExecuteTrajectoryAction;
+	
+	data ExecuteTrajectoryActionFeedback
+	end ExecuteTrajectoryActionFeedback;
+	
+	data ExecuteTrajectoryActionGoal
+	end ExecuteTrajectoryActionGoal;
+	
+	data ExecuteTrajectoryActionResult
+	end ExecuteTrajectoryActionResult;
+	
+	data ExecuteTrajectoryFeedback
+	end ExecuteTrajectoryFeedback;
+	
+	data ExecuteTrajectoryGoal
+	end ExecuteTrajectoryGoal;
+	
+	data ExecuteTrajectoryResult
+	end ExecuteTrajectoryResult;
+	
+	data Grasp
+	end Grasp;
+	
+	data GripperTranslation
+	end GripperTranslation;
+	
+	data JointConstraint
+	end JointConstraint;
+	
+	data JointLimits
+	end JointLimits;
+	
+	data KinematicSolverInfo
+	end KinematicSolverInfo;
+	
+	data LinkPadding
+	end LinkPadding;
+	
+	data LinkScale
+	end LinkScale;
+	
+	data MotionPlanDetailedResponse
+	end MotionPlanDetailedResponse;
+	
+	data MotionPlanRequest
+	end MotionPlanRequest;
+	
+	data MotionPlanResponse
+	end MotionPlanResponse;
+	
+	data MoveGroupAction
+	end MoveGroupAction;
+	
+	data MoveGroupActionFeedback
+	end MoveGroupActionFeedback;
+	
+	data MoveGroupActionGoal
+	end MoveGroupActionGoal;
+	
+	data MoveGroupActionResult
+	end MoveGroupActionResult;
+	
+	data MoveGroupFeedback
+	end MoveGroupFeedback;
+	
+	data MoveGroupGoal
+	end MoveGroupGoal;
+	
+	data MoveGroupResult
+	end MoveGroupResult;
+	
+	data MoveItErrorCodes
+	end MoveItErrorCodes;
+	
+	data ObjectColor
+	end ObjectColor;
+	
+	data OrientationConstraint
+	end OrientationConstraint;
+	
+	data OrientedBoundingBox
+	end OrientedBoundingBox;
+	
+	data PickupAction
+	end PickupAction;
+	
+	data PickupActionFeedback
+	end PickupActionFeedback;
+	
+	data PickupActionGoal
+	end PickupActionGoal;
+	
+	data PickupActionResult
+	end PickupActionResult;
+	
+	data PickupFeedback
+	end PickupFeedback;
+	
+	data PickupGoal
+	end PickupGoal;
+	
+	data PickupResult
+	end PickupResult;
+	
+	data PlaceAction
+	end PlaceAction;
+	
+	data PlaceActionFeedback
+	end PlaceActionFeedback;
+	
+	data PlaceActionGoal
+	end PlaceActionGoal;
+	
+	data PlaceActionResult
+	end PlaceActionResult;
+	
+	data PlaceFeedback
+	end PlaceFeedback;
+	
+	data PlaceGoal
+	end PlaceGoal;
+	
+	data PlaceLocation
+	end PlaceLocation;
+	
+	data PlaceResult
+	end PlaceResult;
+	
+	data PlannerInterfaceDescription
+	end PlannerInterfaceDescription;
+	
+	data PlannerParams
+	end PlannerParams;
+	
+	data PlanningOptions
+	end PlanningOptions;
+	
+	data PlanningScene
+	end PlanningScene;
+	
+	data PlanningSceneComponents
+	end PlanningSceneComponents;
+	
+	data PlanningSceneWorld
+	end PlanningSceneWorld;
+	
+	data PositionConstraint
+	end PositionConstraint;
+	
+	data PositionIKRequest
+	end PositionIKRequest;
+	
+	data RobotState
+	end RobotState;
+	
+	data RobotTrajectory
+	end RobotTrajectory;
+	
+	data TrajectoryConstraints
+	end TrajectoryConstraints;
+	
+	data VisibilityConstraint
+	end VisibilityConstraint;
+	
+	data WorkspaceParameters
+	end WorkspaceParameters;
+	
+end moveit_msgs;

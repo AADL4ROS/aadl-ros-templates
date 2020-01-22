@@ -1,0 +1,17 @@
+-- Auto-generated data for types map_msgs
+-- Generated on: 07/11/2017 17:24:53
+package map_msgs
+public
+	data OccupancyGridUpdate
+	end OccupancyGridUpdate;
+	
+	data PointCloud2Update
+	end PointCloud2Update;
+	
+	data ProjectedMap
+	end ProjectedMap;
+	
+	data ProjectedMapInfo
+	end ProjectedMapInfo;
+	
+end map_msgs;

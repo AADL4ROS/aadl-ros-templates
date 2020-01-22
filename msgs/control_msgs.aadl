@@ -1,0 +1,125 @@
+-- Auto-generated data for types control_msgs
+-- Generated on: 07/11/2017 17:24:53
+package control_msgs
+public
+	data FollowJointTrajectoryAction
+	end FollowJointTrajectoryAction;
+	
+	data FollowJointTrajectoryActionFeedback
+	end FollowJointTrajectoryActionFeedback;
+	
+	data FollowJointTrajectoryActionGoal
+	end FollowJointTrajectoryActionGoal;
+	
+	data FollowJointTrajectoryActionResult
+	end FollowJointTrajectoryActionResult;
+	
+	data FollowJointTrajectoryFeedback
+	end FollowJointTrajectoryFeedback;
+	
+	data FollowJointTrajectoryGoal
+	end FollowJointTrajectoryGoal;
+	
+	data FollowJointTrajectoryResult
+	end FollowJointTrajectoryResult;
+	
+	data GripperCommand
+	end GripperCommand;
+	
+	data GripperCommandAction
+	end GripperCommandAction;
+	
+	data GripperCommandActionFeedback
+	end GripperCommandActionFeedback;
+	
+	data GripperCommandActionGoal
+	end GripperCommandActionGoal;
+	
+	data GripperCommandActionResult
+	end GripperCommandActionResult;
+	
+	data GripperCommandFeedback
+	end GripperCommandFeedback;
+	
+	data GripperCommandGoal
+	end GripperCommandGoal;
+	
+	data GripperCommandResult
+	end GripperCommandResult;
+	
+	data JointControllerState
+	end JointControllerState;
+	
+	data JointTolerance
+	end JointTolerance;
+	
+	data JointTrajectoryAction
+	end JointTrajectoryAction;
+	
+	data JointTrajectoryActionFeedback
+	end JointTrajectoryActionFeedback;
+	
+	data JointTrajectoryActionGoal
+	end JointTrajectoryActionGoal;
+	
+	data JointTrajectoryActionResult
+	end JointTrajectoryActionResult;
+	
+	data JointTrajectoryControllerState
+	end JointTrajectoryControllerState;
+	
+	data JointTrajectoryFeedback
+	end JointTrajectoryFeedback;
+	
+	data JointTrajectoryGoal
+	end JointTrajectoryGoal;
+	
+	data JointTrajectoryResult
+	end JointTrajectoryResult;
+	
+	data PidState
+	end PidState;
+	
+	data PointHeadAction
+	end PointHeadAction;
+	
+	data PointHeadActionFeedback
+	end PointHeadActionFeedback;
+	
+	data PointHeadActionGoal
+	end PointHeadActionGoal;
+	
+	data PointHeadActionResult
+	end PointHeadActionResult;
+	
+	data PointHeadFeedback
+	end PointHeadFeedback;
+	
+	data PointHeadGoal
+	end PointHeadGoal;
+	
+	data PointHeadResult
+	end PointHeadResult;
+	
+	data SingleJointPositionAction
+	end SingleJointPositionAction;
+	
+	data SingleJointPositionActionFeedback
+	end SingleJointPositionActionFeedback;
+	
+	data SingleJointPositionActionGoal
+	end SingleJointPositionActionGoal;
+	
+	data SingleJointPositionActionResult
+	end SingleJointPositionActionResult;
+	
+	data SingleJointPositionFeedback
+	end SingleJointPositionFeedback;
+	
+	data SingleJointPositionGoal
+	end SingleJointPositionGoal;
+	
+	data SingleJointPositionResult
+	end SingleJointPositionResult;
+	
+end control_msgs;

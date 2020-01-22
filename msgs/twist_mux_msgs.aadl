@@ -1,0 +1,47 @@
+-- Auto-generated data for types twist_mux_msgs
+-- Generated on: 07/11/2017 17:24:53
+package twist_mux_msgs
+public
+	data JoyPriorityAction
+	end JoyPriorityAction;
+	
+	data JoyPriorityActionFeedback
+	end JoyPriorityActionFeedback;
+	
+	data JoyPriorityActionGoal
+	end JoyPriorityActionGoal;
+	
+	data JoyPriorityActionResult
+	end JoyPriorityActionResult;
+	
+	data JoyPriorityFeedback
+	end JoyPriorityFeedback;
+	
+	data JoyPriorityGoal
+	end JoyPriorityGoal;
+	
+	data JoyPriorityResult
+	end JoyPriorityResult;
+	
+	data JoyTurboAction
+	end JoyTurboAction;
+	
+	data JoyTurboActionFeedback
+	end JoyTurboActionFeedback;
+	
+	data JoyTurboActionGoal
+	end JoyTurboActionGoal;
+	
+	data JoyTurboActionResult
+	end JoyTurboActionResult;
+	
+	data JoyTurboFeedback
+	end JoyTurboFeedback;
+	
+	data JoyTurboGoal
+	end JoyTurboGoal;
+	
+	data JoyTurboResult
+	end JoyTurboResult;
+	
+end twist_mux_msgs;

@@ -1,0 +1,11 @@
+-- Auto-generated data for types octomap_msgs
+-- Generated on: 07/11/2017 17:24:53
+package octomap_msgs
+public
+	data Octomap
+	end Octomap;
+	
+	data OctomapWithPose
+	end OctomapWithPose;
+	
+end octomap_msgs;
